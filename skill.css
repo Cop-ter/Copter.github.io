@@ -1,0 +1,68 @@
+body{
+    background-image: url(images/orange.png);
+}
+
+h1{
+
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 30px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 380px;
+    height: 50px;
+}
+
+.navbar a{
+    color: rgb(245, 243, 243);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(158, 4, 4);
+}
+
+.navbar li{
+    float: left;
+}
+    header{
+    text-align: center;
+    padding: 55px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(250, 246, 6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 100px;
+
+}
+.icons{
+    text-align: center;
+    text-decoration: none;
+    margin-right: 350px;
+    margin: 50px;
+    padding: 10px;
+    padding-right: 5px;
+    background-color: rgb(250, 226, 6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
